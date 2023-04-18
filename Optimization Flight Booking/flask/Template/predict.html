@@ -1,0 +1,62 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Ticket Booking Price Prediction</title>
+  </head>
+  <body style="background-image: url('/aeroplane.jpg'); background-repeat: no-repeat;background-size: cover;background-attachment: fixed; >
+  <div class="rom">
+   <div class="container-fluid">
+        <div class="navbar" style="justify-content: end;">
+            <a href="home.html"><input type="button"  value="Home" style="margin-left:-30%; font-size: large; border-radius: 40px; height: 30px; width: 90px; box-shadow: black 4px 3px 5px 0px;"></a>
+            <a href="predict.html"><input type="button" value="Predict" style="margin-left: -20; font-size: large; border-radius: 40px; height: 30px; width: 90px; box-shadow: black 4px 3px 5px 0px;"></a>
+        </div>
+    </div>
+
+    <header><h2>
+            <center><h1 style="text-transform: uppercase;margin-top:-4%;color: red;">Flight Ticket Booking Price Pridiction</h1></center>
+    </h2></header>
+    <main>
+      <form><center>
+        <!-- Input form for user to enter travel details -->
+       <h1 style="small; color:orange;" <label for="airline">Airline:</label><br>
+          <select id="airline" name="airline">
+          <option value="Indigo">Indigo</option>
+           <option value="Air India">Air India</option>
+           <option value="Jet Airways">Jet Airways</option>
+           <option value="SpiceJet">SpiceJet</option>
+           <option value="Air Asia">Air Asia</option>
+           <option value="GoAir">GoAir</option>
+          <option value="Jet Airways Business">Jet Airways Business</option></select><br>
+        <label for="departure-city">Departure City:</label><br>
+         <select id="Departure-City" name="Departure city">
+             <option value="Banglore">Banglore</option>
+              <option value="Kolkata">kolkata</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Chennai">Chennai</option>
+              <option value="Mumbai">Mumbai</option>
+         </select><br>
+        <label for="arrival-city">Arrival City:</label><br>
+         <select id="arrival-City" name="Arrival city">
+             <option value="New Delhi">New Delhi</option>
+              <option value="Kolkata">kolkata</option>
+              <option value="Banglore">Banglore</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Cochin">Cochin</option>
+              <option value="Hyderabad">Hyderabad</option>
+         </select><br>
+        <label for="departure-date">Departure Date:</label><br>
+        <input type="date" id="departure-date" name="departure-date" required><br>
+         <label for="arrival-date">arrival Date:</label><br>
+        <input type="date" id="arrival-date" name="arrival-date" required><br>
+         <label for="departure-time">departure time:</label><br>
+        <input type="time" id="departure-time" name="departure-time"><br>
+        <label for="arrival-time">arrival time:</label><br>
+        <input type="time" id="arrival-time" name="arrival-time"><br><br
+
+         <input type="submit" value="Submit" class="btn btn-secondary">
+          <center><a href="submit.html"><input type="button" value="Predict Price" style="margin-left: -10; font-size: large; border-radius: 40px; height: 30px; width: 130px; box-shadow: black 4px 3px 5px 0px;"></a></center>
+    </main>
+  </body>
+</html>
